@@ -1,3 +1,7 @@
+### 2019-01-10
+- seq2seq GRU 예제를 보며 확인한 결과 학습시 loss값과 optimizer 선언을 다 잘하고 optimizer 를 zero_grad()로 초기화를 안 하고 학습시킨게 문제였다. 그 후 LSTM으로도 모델을 변경하여 확인한 결과 loss값이 제대로 떨어지는 것을 확인하였다. LSTM의 경우 GRU 보다 loss 값이 덜 떨어져서 learning_rate를 조금 조절한 결과 GRU 보다 loss가 훨씬 더 떨어졌다. 데이터 구성이 아주 쉬우므로 별 의미는 없다.
+
+
 ### 2020-01-09
 - LabelEncoding 방식으로 변경하여 데이터를 구성.
 - Encoder에서 입력값으로 토큰 하나를 입력받아 Embedding Layer를 통과 후 LSTM Layer를 거쳐 output, hidden 값을 반환
