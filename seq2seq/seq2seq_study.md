@@ -16,3 +16,4 @@
 - [OneHotEncoding](https://wikidocs.net/22647)
 - [LabelEncoding](https://pinkwink.kr/1247)
 - OneHotEncoding(OHE)으로 seq2seq2 을 구현하면서 Encoder에 OHE된 데이터를 입력하여 (output state, hidden state) 값을 반환, 반환한 값을
+![](https://github.com/JeongMyeong/pytorch-example/blob/master/seq2seq/fig/seq2seq flow.png)
