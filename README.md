@@ -44,3 +44,9 @@ transform = transforms.Compose([
 if torch.cuda.device_count() > 1:
     network = nn.DataParallel(network)
 ```
+
+
+# Optimizer setting
+```
+optimizer = torch.optim.Adam(params=network.parameters(), lr=1e-3)
+```
