@@ -1,3 +1,8 @@
+- jupyter theme
+```
+jt -t onedork -fs 115 -nfs 125 -tfs 115 -dfs 115 -ofs 115 -cursc r -cellw 80% -lineh 115 -altmd  -kl -T -N
+```
+
 # pytorch-example
 
 - 공부공부공부 !! ...
