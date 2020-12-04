@@ -30,6 +30,14 @@ train_dataset = MyDataset(X, y, train=True, transforms=transform)
 train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
 ```
 
+# Transform(기본)
+```
+transform = transforms.Compose([
+    transforms.ToTensor()
+    # 
+    ])
+```
+
 # GPU 
 
 ```
