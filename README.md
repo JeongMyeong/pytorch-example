@@ -55,3 +55,8 @@ if torch.cuda.device_count() > 1:
 ```
 optimizer = torch.optim.Adam(params=network.parameters(), lr=1e-3)
 ```
+
+# Model load
+```
+model.load_state_dict(torch.load(PATH).module.state_dict())
+```
